@@ -1,0 +1,17 @@
+{
+  "name": "alicerce-erp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "ERP com motor de processos (kanban) e módulos de Compras, RH, Financeiro e Fiscal. Web + app (PWA) na mesma API.",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server/index.js",
+    "dev": "node --disable-warning=ExperimentalWarning --watch server/index.js",
+    "reset": "node --disable-warning=ExperimentalWarning server/reset.js",
+    "test": "node --disable-warning=ExperimentalWarning --test \"test/*.test.js\""
+  },
+  "license": "MIT"
+}
