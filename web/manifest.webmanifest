@@ -1,0 +1,21 @@
+{
+  "name": "Alicerce ERP",
+  "short_name": "Alicerce",
+  "description": "Processos, Compras, RH, Financeiro e Fiscal em um só lugar.",
+  "lang": "pt-BR",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f5f6f8",
+  "theme_color": "#4338ca",
+  "icons": [
+    { "src": "/icons/icone.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "/icons/icone-mascara.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Processos", "url": "/#/processos" },
+    { "name": "Contas a pagar", "url": "/#/financeiro?aba=pagar" },
+    { "name": "Nova solicitação de compra", "url": "/#/compras/solicitacoes/nova" }
+  ]
+}
